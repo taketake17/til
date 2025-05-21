@@ -40,4 +40,14 @@ load	ページや画像などの読み込みが完了したとき
   document.querySelector('p').classList.toggle('pink-bg');
   ```
   toggleでクラスがあるかないか切り替えられる
-  
+
+- 要素の取得
+```
+querySelector()
+querySelectorAll()
+
+getElementById()
+getElementsByTagName()
+getElemetsByClassName()
+```
+
