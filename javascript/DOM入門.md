@@ -55,4 +55,20 @@ getElemetsByClassName()
   JavaScriptで新しいHTML要素（タグ）を動的に作成するメソッドです。
 主にdocument.createElement(タグ名)の形で使い、指定したタグ名の空の要素ノードを生成します
 
+- appendChild insertBefore <br>
+appendChildの使い方
+appendChildは、親要素の「子要素リストの末尾」に新しい要素やノードを追加するメソッドです。
+```
+親要素.appendChild(追加したい要素);
+```
+insertBeforeの使い方
+insertBeforeは、親要素の「指定した子要素（参照ノード）の直前」に新しい要素やノードを追加するメソッドです。
+```
+親要素.insertBefore(追加したい要素, 参照ノード);
+```
+
+
+
+  
+
 
