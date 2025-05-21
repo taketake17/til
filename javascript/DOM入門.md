@@ -92,6 +92,19 @@ insertBeforeは、親要素の「指定した子要素（参照ノード）の�
   ラジオボタンの場合はforEachで取ってくる
 
 
-  
+  - checkbox
+    ```
+    {
+    document.querySelector('button').addEventListener('click',()=>{
+        const colors =[];
+        document.querySelectorAll('input').forEach((checkbox) =>{
+                if(checkbox.checked === true){
+                   colors.push(checkbox.value);
+                }});
+                alert(colors.join(','));
+    });
+    }
+    ```
+    空の定数を作ってそこに値を入れるためのpushを作る
 
 
