@@ -34,3 +34,10 @@ load	ページや画像などの読み込みが完了したとき
 
 - textContent <br>
 テキスト内容」を取得・設定するためのプロパティです。
+
+- toggle
+  ```
+  document.querySelector('p').classList.toggle('pink-bg');
+  ```
+  toggleでクラスがあるかないか切り替えられる
+  
