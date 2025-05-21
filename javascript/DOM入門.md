@@ -67,6 +67,28 @@ insertBeforeは、親要素の「指定した子要素（参照ノード）の�
 親要素.insertBefore(追加したい要素, 参照ノード);
 ```
 
+- ラジオボタン
+
+  html
+  ```
+  <input type="radio" name="color" value="red">Red 
+    <input type="radio" name="color" value="blue">Blue 
+    <input type="radio" name="color" value="green">Green
+  ```
+  main.js
+  ```
+  {
+    document.querySelector('button').addEventListener('click',()=>{
+        document.querySelectorAll('input').forEach((radio) =>{
+                if(radio.checked === true){
+                    alert(radio.value);
+                }
+            }
+        )
+    });
+  }
+  ```
+  ラジオボタンの場合はforEachで取ってくる
 
 
   
