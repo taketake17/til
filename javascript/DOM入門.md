@@ -51,3 +51,8 @@ getElementsByTagName()
 getElemetsByClassName()
 ```
 
+- createElement <br>
+  JavaScriptで新しいHTML要素（タグ）を動的に作成するメソッドです。
+主にdocument.createElement(タグ名)の形で使い、指定したタグ名の空の要素ノードを生成します
+
+
